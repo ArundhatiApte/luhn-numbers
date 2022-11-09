@@ -78,7 +78,8 @@ symbol `'x'` in lowercase. Example: `"9685xxxx14xx25xx"`.
 * returns number in a сharacter representation
 
 Create a number, that is valid by the Luhn algorithm, by the specified template. If the template is less than 1 in
-length or contains characters other than digits, then the method throws `IllegalArgumentException`.
+length or contains characters other than digits or does not contain any `'x'` character, then the method throws
+`IllegalArgumentException`.
 
 ## Build and install
 

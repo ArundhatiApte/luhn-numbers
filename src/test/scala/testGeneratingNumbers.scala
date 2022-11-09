@@ -14,7 +14,7 @@ import luhnNumbers.LuhnNumbers.createNumberByTemplate
 
 
 final class TestGeneratingNumbers extends AnyFunSpec {
-  private val _random = new Random()
+  private val _random = new Random(4)
 
   describe("создание номера") {
     it("проверкa размера") {

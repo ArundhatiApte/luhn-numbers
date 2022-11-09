@@ -7,7 +7,7 @@
 ## Пример использования
 
 ```java
-LuhnNumbers.isNumberValid(""); //false
+LuhnNumbers.isNumberValid("1215"); //false
 LuhnNumbers.isNumberValid("ab2345cd", 2, 5); // true
 
 Random r = new Random(0);

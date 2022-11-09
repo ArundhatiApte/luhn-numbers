@@ -1,7 +1,7 @@
 ﻿# Luhn numbers
 
 The Luhn algorithm is usually used for the initial verification of bank card numbers. Other areas of its
-application are also known. This module provides functions that check the numbers using the Luhn algorithm,
+application are also known. This module provides functions that check numbers using the Luhn algorithm,
 and methods that create valid numbers.
 
 ## Example of usage
